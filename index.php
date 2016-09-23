@@ -1,16 +1,11 @@
-<html>   
+	<html>   
    <head>
       <title>Form Validation</title>      
       <script type="text/javascript">
          
 function validate()
       {      
-         if( document.myForm.Name.value == "" )
-         {
-           test="Please provide your name!";
-           document.myForm.Name.focus() ;
-            return false;
-         }
+       
          
          if( document.myForm.EMail.value == "" )
          {
@@ -38,6 +33,10 @@ function validate()
       </script>
       
 	</head>
+		<html>   
+   <head>
+      <title>Form Validation</title>      
+      <script type="text/javascript">
    	
    <body>
 		<h1 align="center">SIGN_UP FORM<h1>
